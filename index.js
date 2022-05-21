@@ -20,7 +20,7 @@ const mongoose = require("mongoose");
 const socketio = require("socket.io");
 const io = socketio(http);
 const mongoDB =
-  "mongodb+srv://jackomo47:f10r3ll4@cluster0.4bz87.mongodb.net/chamongo?retryWrites=true&w=majority";
+  "";
 
 mongoose
   .connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true })
